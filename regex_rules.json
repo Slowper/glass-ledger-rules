@@ -1,0 +1,13 @@
+{
+  "amount_regex": "(?:rs\\.?|inr)\\s*[\\.]?\\s*([0-9,]+(?:\\.[0-9]{1,2})?)",
+  "merchant_regex": "\\b(at|to|via)\\s+([a-zA-Z0-9\\s]+?)(?=\\.|and|on|is|ref|from|$)",
+  "category_mapping": {
+    "swiggy": "Food",
+    "zomato": "Food",
+    "uber": "Transport",
+    "ola": "Transport",
+    "netflix": "Subscription",
+    "spotify": "Subscription",
+    "starbucks": "Coffee"
+  }
+}
