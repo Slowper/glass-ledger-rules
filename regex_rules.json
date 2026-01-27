@@ -9,5 +9,11 @@
     "netflix": "Subscription",
     "spotify": "Subscription",
     "starbucks": "Coffee"
+    "cred": "Transfer",
+    "billdesk": "Transfer",
+    "credit card payment": "Transfer",
+    "autopay": "Transfer",
+    "imps": "Transfer" // Be careful with this one, maybe too broad
+  }
   }
 }
