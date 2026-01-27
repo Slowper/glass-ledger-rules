@@ -8,12 +8,14 @@
     "ola": "Transport",
     "netflix": "Subscription",
     "spotify": "Subscription",
-    "starbucks": "Coffee"
+    "starbucks": "Coffee",
     "cred": "Transfer",
     "billdesk": "Transfer",
     "credit card payment": "Transfer",
     "autopay": "Transfer",
-    "imps": "Transfer" // Be careful with this one, maybe too broad
+    "imps": "Transfer", // Be careful with this one, maybe too broad
+    "salary": "Income",   // Optional: Auto-detect salary
+    "refund": "Income"    // Optional: Auto-detect refunds
   }
   }
 }
