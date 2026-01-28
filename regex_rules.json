@@ -1,5 +1,5 @@
 {
-  "amount_regex": "(?i)(?:spent|debited|paid|txn of|for)\\s*(?:INR|Rs\\.?|USD)?\\s*([0-9,]+(?:\\.[0-9]{1,2})?)",
+  "amount_regex": "(?i)(?:spent|debited|paid|txn of|for)\\s*(?:[A-Z]{3}|[$€£¥₹Rs.]+)?\\s*([0-9,]+(?:\\.[0-9]{1,2})?)",
   "merchant_regex": "(?i)(?:at|via|to)\\s+([a-zA-Z0-9*\\s\\.\\-]+?)(?=\\s+on\\s|\\s+for\\s|\\s+ref|\\.|\\,|\\s+date)",
   "category_mapping": {
     "swiggy": "Food",
