@@ -1,6 +1,6 @@
 {
-  "amount_regex": "(?i)(?:spent|debited|paid|txn of|for)\\s*(?:[A-Z]{3}|[$€£¥₹Rs.]+)?\\s*([0-9,]+(?:\\.[0-9]{1,2})?)",
-  "merchant_regex": "(?i)(?:at|via|to)\\s+([a-zA-Z0-9*\\s\\.\\-]+?)(?=\\s+on\\s|\\s+for\\s|\\s+ref|\\.|\\,|\\s+date)",
+  "amount_regex": "(?i)(?:spent|debited|paid|txn of|for|credited by|credited with|received|deposited)\\s*(?:[A-Z]{3}|[$€£¥₹Rs.]+)?\\s*([0-9,]+(?:\\.[0-9]{1,2})?)",
+  "merchant_regex": "(?i)(?:at|via|to|from)\\s+([a-zA-Z0-9*\\s\\.\\-]+?)(?=\\s+on\\s|\\s+for\\s|\\s+ref|\\.|\\,|\\s+date)",
   "category_mapping": {
     "swiggy": "Food",
     "zomato": "Food",
@@ -18,6 +18,7 @@
     "salary": "Income",
     "refund": "Income",
     "credited": "Income",
-    "deposited": "Income"
+    "deposited": "Income",
+    "interest": "Income"
   }
 }
