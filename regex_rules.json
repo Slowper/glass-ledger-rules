@@ -18,6 +18,8 @@
     "salary": "Income",
     "refund": "Income",
     "credited": "Income",
+    "credited by": "Income",
+    "credited with": "Income",
     "deposited": "Income",
     "interest": "Income"
   }
